@@ -1,0 +1,67 @@
+.login {
+  background-color: #ffffff;
+  width:100vw;
+  height: 100vh;
+  font-family: Montserrat,sans-serif;
+
+  .container {
+    padding: 80px 80px 80px 40px;
+    display: flex;
+
+    .side-bar {
+      &-container {
+        width: 150px;
+        padding: 0px 200px 0px 30px;
+        text-align: -webkit-center;
+      }
+
+      &-image {
+        width: 100px;
+        height: 100px;
+        margin: -25px;
+      }
+
+      &-profile {
+        margin-top: 100px;
+
+        &-text {
+          margin-top: 10px;
+        }
+      }
+
+      &-app {
+        margin-top: 150px;
+
+        &-button {
+          &-container {
+            margin-top: 20px;
+          }
+
+          background-color: #07b2fd; 
+          width: 80%;
+          height: 40px;
+          border: none;
+          color: white;
+          display: inline-block;
+          font-size: 16px;
+          border-radius: 4px;
+          cursor: pointer;
+
+          &:hover {
+            background-color: #0092d0;
+          }
+        }
+      }
+    }
+
+    .auth-container {
+      flex: 1;
+    }
+  }
+
+  &-loading-container {
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+  }
+}

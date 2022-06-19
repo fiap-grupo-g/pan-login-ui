@@ -1,0 +1,51 @@
+.virtual-keyboard {
+  &-container {
+    display : flex;
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+
+  &-outer {
+    display : flex;
+    align-items : center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: #07b2fd;
+    cursor: pointer;
+    transition-duration: 0.3s;
+  }
+
+  &-outer-backspace {
+    display : flex;
+    align-items : center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: white;
+    border: 2px solid #dadada;
+    cursor: pointer;
+    transition-duration: 0.3s;
+  }
+
+  &-outer:hover {
+    background-color: #0093d2;
+  }
+
+  &-outer-backspace:hover {
+    background-color: #d7d7d780;
+  }
+
+  &-inner {
+    color: white;
+    font-weight: 500;
+  }
+
+  &-button {
+    width: 25px;
+    height: 25px;
+    color: rgb(151, 151, 151);
+  }
+}

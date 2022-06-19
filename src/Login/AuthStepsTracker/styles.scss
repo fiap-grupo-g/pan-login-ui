@@ -1,0 +1,26 @@
+.auth-steps {
+  display: flex;
+  padding-bottom: 15px;
+
+  &-step {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+
+    &-text {
+      padding-left: 8px;
+      color: #c6c6c6;
+    }
+
+    &-text-active {
+      padding-left: 8px;
+    }
+  }
+
+  &-progress-container {
+    background-color: #0000001d;
+    border-color: #07b2fd;
+    height: 4px;
+    border-radius: 2px;
+  }
+}

@@ -1,0 +1,84 @@
+.home {
+  background-color: #07b2fd;
+  width:100vw;
+  height: 100vh;
+  font-family: Montserrat,sans-serif;
+
+  .placeholder-text{
+    color: white;
+  }
+
+  .container {
+    padding: 80px;
+
+    .header {
+      font-size: large;
+      
+      width: 250px;
+
+      .logo {
+        margin-bottom: 20px;
+      }
+    }
+
+    .cnpj-input {
+      font-size: 6vh;
+      font-weight: 500;
+      color: white;
+      margin-bottom: 15px;
+    }
+
+    .cnpj-input-helper-text {
+      padding-left: 10px;
+    }
+
+    .buttom-container {
+      padding-top: 50px;
+    }
+
+    .confirm-buttom-disabled {
+      background-color: #24242452; 
+      width: 100%;
+      border: none;
+      color: rgba(255, 255, 255, 0.377);
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 2px;
+    }
+
+    .confirm-buttom-enabled {
+      background-color: #f1f1f1; 
+      width: 100%;
+      border: none;
+      color: rgb(0, 0, 0);
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+    }
+
+    .confirm-buttom-enabled:hover {
+      background-color: #d3d3d3;
+    }
+
+    .bottom-container {
+      width: 80%;
+      margin-bottom: 100px;
+      position: absolute;
+      bottom: 0;
+    }
+
+    .ReCAPTCHA {
+      margin-top: 15px;
+    }
+  }
+}
+
+
