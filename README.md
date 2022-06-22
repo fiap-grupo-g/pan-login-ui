@@ -11,3 +11,5 @@ Rode o backend simultâneamente para o projeto funcionar corretamente: https://g
   6. Acesse a aplicação navegando para [http://localhost:3000](http://localhost:3000)
 
 
+## Código de verificação
+O código de verificação é logado no console, basta acessar o console do web browser na hora que for solicitado.
